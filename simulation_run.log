@@ -1,0 +1,152 @@
+================================================================================
+COMPREHENSIVE SIMULATION FRAMEWORK
+================================================================================
+
+Simulating period: 2023-01-02 to 2025-12-31
+Number of scenarios: 4
+Number of benchmark methods: 6
+
+================================================================================
+SCENARIO: High Signal-to-Noise
+================================================================================
+Period: 2023-01-02 to 2025-12-31
+
+Generating High Signal-to-Noise:
+  - 783 trading days (2023-01-02 to 2025-12-31)
+  - 150 assets
+  - 5 true signals
+  - 20 noise signals
+  - Alpha strength: 0.008
+  - Noise level: 0.015
+  ✓ Panel data generated
+
+Running benchmark strategies...
+
+  Running: Conditional Knockoff + Neutralization...
+
+  Running: Marginal Knockoff (no conditioning)...
+
+  Running: All Factors + Neutralization...
+
+  Running: Lasso Only (no knockoffs)...
+
+  Running: Knockoffs (no neutralization)...
+
+  Running: Equal-Weight Long-Short...
+
+  Creating visualizations for High Signal-to-Noise...
+  ✓ Visualizations saved to simulation_results/High_Signal-to-Noise/
+
+================================================================================
+SCENARIO: Low Signal-to-Noise
+================================================================================
+Period: 2023-01-02 to 2025-12-31
+
+Generating Low Signal-to-Noise:
+  - 783 trading days (2023-01-02 to 2025-12-31)
+  - 150 assets
+  - 3 true signals
+  - 30 noise signals
+  - Alpha strength: 0.004
+  - Noise level: 0.025
+  ✓ Panel data generated
+
+Running benchmark strategies...
+
+  Running: Conditional Knockoff + Neutralization...
+
+  Running: Marginal Knockoff (no conditioning)...
+
+  Running: All Factors + Neutralization...
+
+  Running: Lasso Only (no knockoffs)...
+
+  Running: Knockoffs (no neutralization)...
+
+  Running: Equal-Weight Long-Short...
+
+  Creating visualizations for Low Signal-to-Noise...
+  ✓ Visualizations saved to simulation_results/Low_Signal-to-Noise/
+
+================================================================================
+SCENARIO: Many True Signals
+================================================================================
+Period: 2023-01-02 to 2025-12-31
+
+Generating Many True Signals:
+  - 783 trading days (2023-01-02 to 2025-12-31)
+  - 150 assets
+  - 10 true signals
+  - 40 noise signals
+  - Alpha strength: 0.006
+  - Noise level: 0.02
+  ✓ Panel data generated
+
+Running benchmark strategies...
+
+  Running: Conditional Knockoff + Neutralization...
+
+  Running: Marginal Knockoff (no conditioning)...
+
+  Running: All Factors + Neutralization...
+
+  Running: Lasso Only (no knockoffs)...
+
+  Running: Knockoffs (no neutralization)...
+
+  Running: Equal-Weight Long-Short...
+
+  Creating visualizations for Many True Signals...
+  ✓ Visualizations saved to simulation_results/Many_True_Signals/
+
+================================================================================
+SCENARIO: Mixed Factor Betas
+================================================================================
+Period: 2023-01-02 to 2025-12-31
+
+Generating Mixed Factor Betas:
+  - 783 trading days (2023-01-02 to 2025-12-31)
+  - 150 assets
+  - 6 true signals
+  - 30 noise signals
+  - Alpha strength: 0.006
+  - Noise level: 0.018
+  ✓ Panel data generated
+
+Running benchmark strategies...
+
+  Running: Conditional Knockoff + Neutralization...
+
+  Running: Marginal Knockoff (no conditioning)...
+
+  Running: All Factors + Neutralization...
+
+  Running: Lasso Only (no knockoffs)...
+
+  Running: Knockoffs (no neutralization)...
+
+  Running: Equal-Weight Long-Short...
+
+  Creating visualizations for Mixed Factor Betas...
+  ✓ Visualizations saved to simulation_results/Mixed_Factor_Betas/
+
+  Creating cross-scenario comparisons...
+  ✓ Cross-scenario visualizations saved
+
+  Generating summary report...
+  ✓ Report saved to simulation_results/SIMULATION_REPORT.md
+
+================================================================================
+SIMULATION COMPLETE!
+================================================================================
+
+Results saved to: simulation_results/
+
+================================================================================
+ALL SIMULATIONS COMPLETE!
+================================================================================
+
+Check the 'simulation_results/' directory for:
+  - Scenario-specific visualizations
+  - Cross-scenario comparisons
+  - Detailed performance report
